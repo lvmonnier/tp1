@@ -16,24 +16,24 @@ public class MyFirstTest {
 	public static void lastDestroy() {log.info("Dernière méthode appelée");}
 	
 	@Before
-	public static void beforeTest() {log.info("Méthode appelée avant chaque test");}
+	public void beforeTest() {log.info("Méthode appelée avant chaque test");}
 	
 	@After
-	public static void afterTest() {log.info("Méthode appelée après chaque test");}
+	public void afterTest() {log.info("Méthode appelée après chaque test");}
 	
 	@Test
-	public static void premierTest() {
+	public void premierTest() {
 		log.info("Mon premier test");
 		Assert.assertTrue(true);
 	}
 	
 	@Test
-	public static void secondTest() {
+	public void secondTest() {
 		log.info("Mon deuxième test");
 		Assert.assertFalse(false);
 	}
 	
 	@Ignore
 	@Test
-	public static void testIgnore() {log.info("Test ignoré");}
+	public void testIgnore() {log.info("Test ignoré");}
 }
