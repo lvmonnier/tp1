@@ -11,8 +11,7 @@ public class StringUtilsTest {
 	
 	@Test
 	public void reserverStringTest() {
-		log.info("Mon deuxième test");
-		
+		log.info("Test de la méthode reverseStringTest");
 		Assert.assertEquals("tset", su.reverseString("test"));
 	}
 
