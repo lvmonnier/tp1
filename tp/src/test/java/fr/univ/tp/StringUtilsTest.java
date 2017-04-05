@@ -30,10 +30,20 @@ public class StringUtilsTest {
 		Assert.assertEquals("a", su.reverseString("a"));
 	}
 	
+	/*
 	@Test
 	public void reverseStringTestCasNonString() {
 		log.info("Test de la méthode reverseStringTest pour un mauvais argument (non string)");
-		exc.expect(IllegalArgumentException.class);
+		//exc.expect(IllegalArgumentException.class);
+		//assertThrown()
+		//when(su).reverseString(354);
+		/*try {
+	        su.reverseString(156);
+	        assert false;
+	    } catch (IndexOutOfBoundsException e) {
+	        assert true;
+	    }
 	}
+	*/
 
 }
