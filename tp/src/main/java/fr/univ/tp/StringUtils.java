@@ -2,7 +2,7 @@ package fr.univ.tp;
 
 public class StringUtils {
 	
-	public String reverseString(String se) {
+	public static String reverseString(String se) {
 		String ss;
 		StringBuilder lettersBuff = new StringBuilder(se);
 		 
